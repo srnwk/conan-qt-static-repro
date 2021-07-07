@@ -1,0 +1,11 @@
+[requires]
+qt/6.1.2
+
+[generators]
+cmake_find_package
+
+[options]
+qt:shared = False
+
+[imports]
+bin, *.dll -> ..
